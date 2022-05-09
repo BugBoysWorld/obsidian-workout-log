@@ -1,0 +1,83 @@
+{
+  "main": {
+    "id": "ff2b7d390bd08df7",
+    "type": "split",
+    "children": [
+      {
+        "id": "07371491340f38a1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Daily Workout Log.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5afe4e03eac9dce9",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "fe81182b88ab20ac",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "7a8aabb76ec5770f",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "f3d3f89a926e95e0",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "2a720078025050e2",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Daily Workout Log.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "07371491340f38a1",
+  "lastOpenFiles": [
+    "Daily Workout Log.md",
+    "workouts/2022-05-05 03.md",
+    "workouts/2022-05-05 02.md",
+    "workouts/2022-05-05 01.md",
+    "templates/exercise_log.md"
+  ]
+}

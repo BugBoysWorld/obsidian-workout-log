@@ -1,0 +1,60 @@
+{
+  "choices": [
+    {
+      "id": "d41ed8d0-844a-45f0-bb94-6643fe6adca8",
+      "name": "Add Exercise",
+      "type": "Macro",
+      "command": true,
+      "macroId": "9b2699ae-da71-4389-b0ad-063369bd8ec0"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Add Exercise",
+      "id": "9b2699ae-da71-4389-b0ad-063369bd8ec0",
+      "commands": [
+        {
+          "name": "Add Exercise",
+          "type": "NestedChoice",
+          "id": "8f05fe72-2adc-4556-bba6-94d9743e00ba",
+          "choice": {
+            "id": "b2fe820e-2844-45b6-a0d5-9c87e6e8de93",
+            "name": "Add Exercise",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "workouts/{{DATE}} {{VALUE}}",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": true,
+              "createWithTemplate": true,
+              "template": "templates/exercise_log.md"
+            },
+            "format": {
+              "enabled": true,
+              "format": ""
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line"
+}
